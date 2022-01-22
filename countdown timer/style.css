@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #efefef;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+
+.container {
+    background-image: url(../img/ct.jpg);
+    width: 80%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 2, .4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fafafa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.big-text {
+    font-size: 5rem;
+    margin: 40px 40px 0 40px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.seconds-c, .mins-c, .days-c, .hours-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        height: auto;
+    }
+    
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 5px 20px;
+    }
+    .countdown-container {
+        font-size: 2rem;
+    }
+  }
