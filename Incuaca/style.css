@@ -1,0 +1,19 @@
+.card {
+    background-color: rgba(136, 136, 136, 0.4);
+    color: white;
+}
+
+.card img {
+    margin: 0 auto;
+}
+
+.card-kecil h1{
+    font-size: 1.5rem;
+}
+.card-kecil h5{
+    font-size: 1rem;
+}
+
+.card-kecil {
+    background-color: aliceblue;
+}
