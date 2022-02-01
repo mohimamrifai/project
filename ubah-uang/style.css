@@ -1,0 +1,8 @@
+.non-active {
+    display: none;
+}
+
+
+input::placeholder {
+    color: rgb(134, 133, 133);
+}

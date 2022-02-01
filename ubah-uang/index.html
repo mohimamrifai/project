@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Ubah Uang</title>
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <h1>Ubah uang</h1>
+        <div class="btn-group my-3">
+            <button class="btn btn-primary daftar">
+                daftar mata uang
+            </button>
+            <button class="btn btn-danger ubah">
+               ubah mata uang
+            </button>
+          </div>
+    </div>
+    <div class="container daftar-el">
+        <div class="row" id="box-container">
+            
+        </div>
+    </div>
+    <!-- non-active -->
+    <div class="container-card calculateEl non-active mt-5 col-5 mx-auto">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" placeholder="$1,000" autocomplete="off" id="inputUang">
+            <select class="form-select" id="inputGroupSelect01">
+               
+            </select>
+            <label class="input-group-text" for="inputGroupSelect01">To</label>
+            <select class="form-select" id="inputGroupSelect02">
+                
+              </select>
+          </div>
+          <div class="input-group mb-3">
+            <button class="btn btn-danger" type="button" id="btnUbah" >Ubah</button>
+            <input type="text" class="form-control" aria-describedby="button-addon1" id="hasil" placeholder="hasil">
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
