@@ -13,8 +13,6 @@ const box = document.getElementById('box');
         const domain = data.areas[0].domain;
         const params = data.areas[0].params;
 
-        console.log(data);
-
         root.innerHTML = `<div class="row">
         <div class="col-4 offset-2">
             <div class="info" >
